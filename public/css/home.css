@@ -1,0 +1,202 @@
+.home__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--colorRojo);
+}
+
+.home__header__burger {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home__header__nav {
+    display: none;
+}
+
+/* home | products */
+.home__main__section--products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0;
+    width: 100%;
+}
+
+.home__main__section__article--product {
+    width: 100%;
+}
+
+.home__main__section__article--product figure img {
+    width: 100%;
+}
+
+.home__main__section__article--product h2 {
+    margin: 20px 0;
+}
+
+.home__main__section__article--product a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: var(--colorRojo);
+}
+
+/* home | aside */
+.home__main__aside {
+    width: 100%;
+}
+
+.home__main__aside h2 {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.home__main__aside__section--tutoriales {
+    margin-bottom: 30px;
+}
+
+.home__main__aside__section--tutoriales article {
+    background-color: #fff;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid var(--colorCeleste);
+    border-bottom: none;
+}
+
+.home__main__aside__section--tutoriales article:last-child {
+    border-bottom: 1px solid var(--colorCeleste);
+}
+
+.home__main__aside__section--publicidad article {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .home__header {
+        padding: 30px;
+    }
+
+    
+.home__header__burger {
+    display: none;
+}
+
+.home__header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.home__header__nav ul {
+   display: flex;
+   gap: 10px;
+}
+
+.home__header__nav--menu {
+    justify-content: flex-start;
+}
+
+.home__header__nav--user {
+    justify-content: flex-end;
+}
+
+.home__header__nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+    /* home */
+    .home__main {
+        margin: 0;
+    }
+
+    /* home | products */
+    .home__main__section--products {
+        justify-content: space-between;
+    }
+
+    .home__main__section__article--product {
+        width: 48%;
+    }
+
+    /* home | aside */
+
+    .home__main__aside__section--tutoriales{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px 0;
+    }
+
+    .home__main__aside__section--tutoriales article {
+       width: 49%;
+       border: 1px solid var(--colorCeleste);
+      
+    }
+
+    .home__main__aside__section--publicidad article {
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .home__main__aside__section--publicidad article img {
+        width: 49%;
+    
+    }
+}
+
+@media (min-width:1024px) {
+
+    /* header */
+    .home__header__nav {
+       width: 87%;
+    }
+       /* home */
+       .home__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+     /* home | products */
+     .home__main__section--products {
+        width: 68%;
+    }
+
+    .home__main__aside {
+        width: 30%;
+        margin-top: 15px;
+    }
+
+    .home__main__aside__section--tutoriales{
+        flex-direction: column;
+    }
+
+    .home__main__aside__section--tutoriales article {
+        width: 100%;
+       
+     }
+
+     .home__main__aside__section--publicidad article {
+        flex-direction: column;
+    
+    }
+    .home__main__aside__section--publicidad article img {
+        width: 100%;
+    
+    }
+}
