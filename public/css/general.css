@@ -27,10 +27,16 @@ a{
     text-decoration: none;
 }
 
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
 .general__main__section{
     background-color: #fff;
     padding: 15px;
     margin: 15px 0;
+    box-shadow: gray 5px 5px 5px;
 }
 
 .general__button__product{

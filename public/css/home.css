@@ -114,10 +114,10 @@
 }
 
     /* home */
-    .home__main {
+   /*  .home__main {
         margin: 0;
     }
-
+ */
     /* home | products */
     .home__main__section--products {
         justify-content: space-between;
