@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsy | Product Detail</title>
+    <script src="https://kit.fontawesome.com/ae7c764a16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="detail">
+    <header class="home__header">
+        <div class="home__header__logo">
+            <a href="/"><img src="/images/logo.png" alt=""></a>
+        </div>
+        <button class="home__header__burger"><i class="fa fa-bars"></i> Menu </button>
+        <nav class="home__header__nav">
+            <ul class="home__header__nav--menu">
+                <li><a href="">Computadoras</a></li>
+                <li><a href="">Tablets</a></li>
+                <li><a href="">Celulares</a></li>
+            </ul>
+            <ul class="home__header__nav--user">
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="detail__main">
+        <section class="detail__main__section general__main__section">
+          <h1>Registrate</h1>
+          <hr>
+          <form action="">
+                <div class="form__box">
+                    <label class="form__label" for="nombre">Nombre:</label>
+                    <input class="form__input" type="text" id="nombre">
+                </div>
+                <div class="form__box">
+                    <label class="form__label" for="apellido">Apellido:</label>
+                    <input class="form__input" type="text" id="apellido">
+                </div>
+                <div class="form__box">
+                    <label class="form__label" for="email">Email:</label>
+                    <input class="form__input" type="email" id="email">
+                </div>
+                <div class="form__box">
+                    <label class="form__label" for="password">Contraseña:</label>
+                    <input class="form__input" type="password" id="password">
+                </div>
+                <div class="form__box">
+                    <label class="form__label" for="password2">Confirma contraseña:</label>
+                    <input class="form__input" type="password" id="password2">
+                </div>
+                <div class="form__box">
+                    <input class="form__checkbox" type="checkbox" id="terminos">
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+                <div class="form__box">
+                    <a href="" class="form__button--cancel">Cancelar</a>
+                    <button  class="form__button--send" type="submit">Registrate</button>
+                </div>
+          </form>
+        </section>
+    </main>
+</body>
+
+</html>
