@@ -40,7 +40,17 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .form__label--small {
     font-size: 13px;
+    margin-top: 20px;
 }
+
+.form__label--msg {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--colorRojo);
+}
+
 
 
 /* botones */
