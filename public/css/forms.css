@@ -14,6 +14,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     text-align: center;
 }
 
+.form__subTitle {
+    margin-bottom: 20px;
+}
+
 .form__box {
     width: 100%;
 }
@@ -24,6 +28,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     align-items: center;
     gap: 5px;
 }
+
+.form__box--column {
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}   
 
 /* elementos */
 
@@ -36,6 +46,22 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     border: none;
     border-bottom: 1px solid silver;
     outline: none;
+    color: gray;
+}
+
+.form__select {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid silver;
+    color: gray;
+}
+
+.form__textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid silver;
+    color: gray;
+    resize: none;
 }
 
 .form__label--small {
