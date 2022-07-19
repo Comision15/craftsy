@@ -46,3 +46,8 @@ main {
     color: #fff;
     background-color: var(--colorRojo);
 }
+
+.general__button__product:hover{
+
+    background-color: orangered;
+}

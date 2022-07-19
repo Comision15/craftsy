@@ -46,27 +46,23 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     border: none;
     border-bottom: 1px solid silver;
     outline: none;
-    color: gray;
 }
 
 .form__select {
     width: 100%;
     padding: 10px 0;
     border: 1px solid silver;
-    color: gray;
 }
 
 .form__textarea {
     width: 100%;
     padding: 10px 0;
     border: 1px solid silver;
-    color: gray;
     resize: none;
 }
 
 .form__label--small {
     font-size: 13px;
-    margin-top: 20px;
 }
 
 .form__label--msg {
@@ -77,6 +73,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     color: var(--colorRojo);
 }
 
+.form__text--error {
+    color: red;
+}
 
 
 /* botones */
@@ -88,10 +87,21 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 .form__button--cancel {
     background-color: grey;
+    cursor:default;
+}
+
+.form__button--cancel:hover {
+    background-color: DarkGray;
+    cursor: pointer;
 }
 
 .form__button--send {
     background-color: var(--colorRojo);
+}
+
+.form__button--send:hover {
+    background-color: OrangeRed;
+    cursor: pointer;
 }
 
 @media (min-width:768px) {
