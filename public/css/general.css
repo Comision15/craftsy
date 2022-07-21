@@ -50,4 +50,5 @@ main {
 .general__button__product:hover{
 
     background-color: orangered;
+    transition: all 0.5s;
 }
