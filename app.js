@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
-const port = 3030;
 
 const app = express();
 
@@ -13,4 +13,4 @@ app.get('/login', (req,res) => res.sendFile(path.join(__dirname, 'views', 'login
 app.get('/terms', (req,res) => res.sendFile(path.join(__dirname, 'views', 'terms.html' )));
 app.get('/profile', (req,res) => res.sendFile(path.join(__dirname, 'views', 'profile.html' )));
 
-app.listen(port, () => console.log('Server running in http://localhost:' + port))
+app.listen(process.env.PORT || 3030, () => console.log('Server running in http://localhost:' + process.env.PORT || 3030))
