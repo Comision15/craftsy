@@ -266,6 +266,10 @@
  }
 
        /* home */
+       .home__main__img--banner {
+      
+        height: 57vh;
+    }
        .home__main {
         display: flex;
         flex-wrap: wrap;
