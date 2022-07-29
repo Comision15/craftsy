@@ -118,6 +118,18 @@
     margin: 20px 0;
 }
 
+.home__main__section__article--carousel {
+    width: 90%;
+    margin: 0 auto;
+}
+.glider{
+    overflow-x: hidden;
+}
+
+.home__main__section__article--carousel img {
+    height: 22vh;
+}
+
 /* home | aside */
 .home__main__aside {
     width: 100%;
@@ -268,7 +280,7 @@
        /* home */
        .home__main__img--banner {
       
-        height: 57vh;
+        height: 55vh;
     }
        .home__main {
         display: flex;
